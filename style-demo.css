@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+
+.quicksand-uniquifier {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Navbar */
+.navbar {
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #ffa500;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-primary:hover {
+    background-color: #ff8c00;
+}
+
+/* Banner Section */
+.banner-container {
+    padding: 50px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.banner-text {
+    max-width: 50%;
+}
+
+.banner-header {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.Text-color-common {
+    color: #ffa500;
+}
+
+.Text-color-2 {
+    color: #00aaff;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.banner-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.btn-common2 {
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-text {
+        max-width: 100%;
+    }
+
+    .banner-header {
+        font-size: 1.8rem;
+    }
+
+    .banner-image {
+        max-width: 100%;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+        width: 100%;
+    }
+}
