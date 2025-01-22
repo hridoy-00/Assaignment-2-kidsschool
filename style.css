@@ -43,8 +43,7 @@
   .display-flex{
     display: flex;
   }
-
-.fa-solid{
+.fa-solid.fa-bars {
     display: none;
 }
 .logo-header{
@@ -126,7 +125,8 @@
     .btn-primary1{
         display: none;
     }
-    .fa-solid{
+    .fa-solid.fa-bars {
+        display: none;
         display: block;
         font-size: 3.5rem;
         cursor: pointer;
