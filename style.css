@@ -28,6 +28,14 @@
     border: none;
     font-size: 1rem;
 } 
+.btn-primary1{
+    color: white;
+    padding: 10px 36px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    font-size: 1rem;
+}
 .header{
     margin: 0 140px;
 }
@@ -45,7 +53,8 @@
     margin-right: 5px;
 }
 .logo{
-    size: 62px;
+    width: 62px;
+    height: 62px;
 }
 .navbar {
         align-items: center;
@@ -110,15 +119,16 @@
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        margin: 0;
-        border: 1px solid orange;
+        border-bottom: 1px solid orange;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
     }
-    .btn-primary{
+    .btn-primary1{
         display: none;
     }
     .toggle-bar{
         display: block;
-        font-size: 1.5rem;
+        font-size: 3.5rem;
         cursor: pointer;
     }
 
