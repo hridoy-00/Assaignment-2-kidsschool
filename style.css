@@ -44,7 +44,7 @@
     display: flex;
   }
 
-.toggle-bar{
+.fa-solid{
     display: none;
 }
 .logo-header{
@@ -126,7 +126,7 @@
     .btn-primary1{
         display: none;
     }
-    .toggle-bar{
+    .fa-solid{
         display: block;
         font-size: 3.5rem;
         cursor: pointer;
