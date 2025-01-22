@@ -36,7 +36,9 @@
     display: flex;
   }
 
-
+.toggle-bar{
+    display: none;
+}
 .logo-header{
     font-size: 1rem;
     align-items: center;
@@ -101,11 +103,25 @@
         text-align: center;
     }
     .header{
-        margin: 0 20px;
+        margin: 0;
+        padding: 0;
     }
     .navbar{
+        display: flex;
         justify-content: space-between;
+        flex-direction: row;
+        margin: 0;
+        border: 1px solid orange;
     }
+    .btn-primary{
+        display: none;
+    }
+    .toggle-bar{
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
     .responsive-1, .menu{
         display: none;
     }
